@@ -13,7 +13,7 @@ pipeline {
                 // Simulate a simple build and test command
                 sh 'echo "Running unit tests..."' 
                 sh 'echo "Build successful: App version 1.0"'
-                // In a real project, this would be 'npm install', 'mvn clean package', etc.
+                sh 'echo "date print"'// In a real project, this would be 'npm install', 'mvn clean package', etc.
             }
         }
     }
